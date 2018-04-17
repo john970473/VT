@@ -1,0 +1,27 @@
+#bg{
+    background-image: url(https://images.unsplash.com/photo-1506604636708-4ec6590edfac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52126bb9f5f681b02649cdb57ab0fb41);
+    background-size:cover;
+    background-position: center;
+    /* background-position-x: 37%; */
+    margin-top: 3rem;
+    color: rgb(247, 189, 189);
+    text-align: center;
+
+}
+
+#sidebar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+#sidebar_inner{
+    position: relative;
+}
+
+#sidebar_inner_2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
